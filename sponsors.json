@@ -1,0 +1,42 @@
+[
+  {
+    "name": "kazuya kawaguchi",
+    "login": "kazupon",
+    "avatar": "https://avatars.githubusercontent.com/u/72989?u=d4fc7a7d65aca9450523e366a63aaa791868d470&v=4",
+    "amount": 10,
+    "link": "https://github.com/kazupon",
+    "org": false
+  },
+  {
+    "name": "João Carmona",
+    "login": "jpsc",
+    "avatar": "https://avatars.githubusercontent.com/u/411763?u=e1539021b583abe14d08fb5c8a30f18309b19b00&v=4",
+    "amount": 5,
+    "link": "https://github.com/jpsc",
+    "org": false
+  },
+  {
+    "name": "Mail.tm",
+    "login": "mailtm",
+    "avatar": "https://avatars.githubusercontent.com/u/65580678?v=4",
+    "amount": 5,
+    "link": "https://github.com/mailtm",
+    "org": true
+  },
+  {
+    "name": "Yaël Guilloux",
+    "login": "Tahul",
+    "avatar": "https://avatars.githubusercontent.com/u/1385263?u=5fa8ea08de4cd72e468943edabfa9d72f3c02e70&v=4",
+    "amount": -1,
+    "link": "https://github.com/Tahul",
+    "org": false
+  },
+  {
+    "name": "Anoesj Sadraee",
+    "login": "Anoesj",
+    "avatar": "https://avatars.githubusercontent.com/u/7874160?u=b262f2b34131af4f9b4a4846a5b2ba21cdaa1a6f&v=4",
+    "amount": -1,
+    "link": "https://github.com/Anoesj",
+    "org": false
+  }
+]
