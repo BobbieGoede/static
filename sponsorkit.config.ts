@@ -1,16 +1,6 @@
-import { BadgePreset, defineConfig, presets } from "sponsorkit";
+import { defineConfig, presets } from "sponsorkit";
 import fs from "fs/promises";
 
-const past: BadgePreset = {
-  avatar: {
-    size: 20,
-  },
-  boxWidth: 22,
-  boxHeight: 22,
-  container: {
-    sidePadding: 35,
-  },
-};
 
 export default defineConfig({
   github: {
@@ -21,40 +11,32 @@ export default defineConfig({
     {
       title: "Past Sponsors",
       monthlyDollars: -1,
-      preset: past,
+      preset: presets.small,
+
     },
     {
       title: "Backers",
-      preset: presets.small,
+      preset: presets.medium,
     },
     {
       title: "Sponsors",
       monthlyDollars: 25,
-      preset: {
-        avatar: {
-          size: 42,
-        },
-        boxWidth: 52,
-        boxHeight: 52,
-        container: {
-          sidePadding: 30,
-        },
-      },
+      preset: presets.medium,
     },
     {
       title: "Super Sponsors",
       monthlyDollars: 50,
-      preset: presets.medium,
+      preset: presets.large,
     },
     {
       title: "Bronze Sponsors",
       monthlyDollars: 100,
-      preset: presets.medium,
+      preset: presets.large,
     },
     {
       title: "Silver Sponsors",
       monthlyDollars: 250,
-      preset: presets.medium,
+      preset: presets.large,
     },
     {
       title: "Gold Sponsors",
