@@ -1,5 +1,13 @@
 [
   {
+    "name": "Daniel Roe",
+    "login": "danielroe",
+    "avatar": "https://avatars.githubusercontent.com/u/28706372?u=c4a5aa5232c09c3248533366d5c93a138d7e8987&v=4",
+    "amount": 25,
+    "link": "https://github.com/danielroe",
+    "org": false
+  },
+  {
     "name": "kazuya kawaguchi",
     "login": "kazupon",
     "avatar": "https://avatars.githubusercontent.com/u/72989?u=d4fc7a7d65aca9450523e366a63aaa791868d470&v=4",
@@ -38,6 +46,14 @@
     "amount": -1,
     "link": "https://github.com/Tahul",
     "org": false
+  },
+  {
+    "name": "Anthony Fu Fund",
+    "login": "antfu",
+    "avatar": "https://images.opencollective.com/antfu/9fd8171/logo/460.png",
+    "amount": -1,
+    "link": "https://opencollective.com/antfu",
+    "org": true
   },
   {
     "name": "Anoesj Sadraee",

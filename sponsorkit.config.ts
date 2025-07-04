@@ -1,52 +1,67 @@
-import { defineConfig, presets } from "sponsorkit";
+import { defineConfig, tierPresets } from "sponsorkit";
 import fs from "fs/promises";
-
 
 export default defineConfig({
   github: {
     login: "bobbiegoede",
     type: "user",
   },
+  opencollective: {
+    slug: "bobbiegoede",
+    type: "user",
+  },
+  sponsorsAutoMerge: true,
   tiers: [
     {
       title: "Past Sponsors",
       monthlyDollars: -1,
-      preset: presets.small,
-
+      preset: tierPresets.small,
     },
     {
       title: "Backers",
-      preset: presets.medium,
+      preset: {
+        ...tierPresets.medium,
+        boxWidth: 80,
+        avatar: {
+          size: 40,
+        },
+      },
     },
     {
       title: "Sponsors",
       monthlyDollars: 25,
-      preset: presets.medium,
+      preset: {
+        ...tierPresets.medium,
+        boxWidth: 100,
+        avatar: {
+          size: 60,
+        },
+      },
     },
     {
       title: "Super Sponsors",
       monthlyDollars: 50,
-      preset: presets.large,
+      preset: tierPresets.large,
     },
     {
       title: "Bronze Sponsors",
       monthlyDollars: 100,
-      preset: presets.large,
+      preset: tierPresets.large,
     },
     {
       title: "Silver Sponsors",
       monthlyDollars: 250,
-      preset: presets.large,
+      preset: tierPresets.large,
     },
     {
       title: "Gold Sponsors",
       monthlyDollars: 500,
-      preset: presets.large,
+      preset: tierPresets.large,
     },
     {
       title: "Diamond Sponsors",
       monthlyDollars: 1000,
-      preset: presets.xl,
+      preset: tierPresets.xl,
     },
     // {
     //   title: 'Special Sponsor',
